@@ -148,40 +148,6 @@ Checklist voidaan tehdä seuraavaan tyyliin:
 - [ ]  jotain on vielä tekemättä
 ```
 
-## Alertit
-
-> [!NOTE]
-> Tässä esimerkki huomautuksesta
-
-> [!TIP]
-> Tässä esimerkki vinkistä
-
-> [!IMPORTANT]
-> Tässä esimerkki jostain tärkeästä
-
-> [!WARNING]
-> Tässä esimerkki varoituksesta
-
-> [!CAUTION]
-> Tässä esimerkki jostain erittäin akuutista
-
-```
-> [!NOTE]
-> Tässä esimerkki huomautuksesta
-
-> [!TIP]
-> Tässä esimerkki vinkistä
-
-> [!IMPORTANT]
-> Tässä esimerkki jostain tärkeästä
-
-> [!WARNING]
-> Tässä esimerkki varoituksesta
-
-> [!CAUTION]
-> Tässä esimerkki jostain erittäin akuutista
-```
-
 ## Lopuksi
 
 Markdown voi jättää tekstin huomioimatta eikä yritä muotoilla sitä, jos erikoismerkin eteen laittaa kenoviivan \
@@ -189,3 +155,9 @@ Markdown voi jättää tekstin huomioimatta eikä yritä muotoilla sitä, jos er
 Esimerkiksi \*\*tämä\*\* tummennettaisiin yleensä, mutta käytin kenoviivoja, joten tummennusta ei tehty.
 
 `\*\*tämä\*\*`
+
+Voit myös lisätä markdown-koodiin kommentteja, jotka eivät näy itse tekstissä.
+
+<!-- Tätä ei näy itse tekstissä -->
+
+`<!-- Tätä ei näy itse tekstissä -->`
