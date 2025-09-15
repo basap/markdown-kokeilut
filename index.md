@@ -29,9 +29,9 @@ _Kursivoitu teksti_
 
 <ins>Alleviivattu teksti</ins>
 
-<sub>subscript</sub>
+test<sub>subscript</sub>
 
-<sup>superscript</sup>
+test<sup>superscript</sup>
 
 ```
 **Tummennettu teksti**
@@ -56,9 +56,7 @@ Lainaus luodaan lisäämällä > tekstin eteen:
 
 Fiksu tapa näyttää koodia on käyttää backtick-merkkiä `
 
-`
-Yhden koodirivin näyttämiseen käytetään yhtä backtickkiä alussa ja lopussa
-`
+`Yhden koodirivin näyttämiseen käytetään yhtä backtickkiä alussa ja lopussa`
 
 ```
 Isomman koodinpalasen voi näyttää laittamalla sen alkuun
@@ -101,9 +99,7 @@ jättämällä niiden väliin yhden tyhjän rivin.
 
 Kuvan voi lisätä seuraavalla tavalla:
 
-`
-![tähän kuvan alt-teksti](https://freesvg.org/img/Awesome-smiley.png)
-`
+`![tähän kuvan alt-teksti](https://freesvg.org/img/Awesome-smiley.png)`
 ![tähän kuvan alt-teksti](https://freesvg.org/img/Awesome-smiley.png)
 
 ## Listaukset
@@ -192,6 +188,4 @@ Markdown voi jättää tekstin huomioimatta eikä yritä muotoilla sitä, jos er
 
 Esimerkiksi \*\*tämä\*\* tummennettaisiin yleensä, mutta käytin kenoviivoja, joten tummennusta ei tehty.
 
-`
-\*\*tämä\*\*
-`
+`\*\*tämä\*\*`
